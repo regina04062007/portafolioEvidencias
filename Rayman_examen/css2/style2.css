@@ -1,0 +1,318 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-size: "poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+}
+body
+{
+  background-color: #ffffff;
+}
+
+header{
+    background-color: rgba(13, 52, 102, 0.63);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/rayman4.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+   
+      
+       }
+
+.letra1{
+    font-size: 28px; 
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    align-self: center;
+   
+}
+.letra2{
+     font-family: Georgia, 'Times New Roman', Times, serif ;
+     
+
+}
+
+ul{
+margin-top: 10px;
+padding-left: 0.5rem;
+width: 100%;
+display: flex;justify-content: space-between;
+align-items: center;
+border-radius: 0.5rem;
+
+
+}
+aside{
+    margin-top: 10px;
+    background-color: #6f7ad891;
+    width: 415px;
+    height: 600px;
+    margin-top: 10px;
+
+}
+footer{
+    background-color: rgba(15, 2, 197, 0.788);
+    position: sticky;
+    clear: both;
+    height: 100px;
+    margin-top: 10px;
+}
+.buttons{
+    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 10px;
+}
+.buttons button{
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+
+  .ima1 img{
+      display: flex;
+      justify-content: center;
+      width: 300px;
+    height: 400px; 
+   
+  }
+
+  .contacto2 i{
+    font-size: 28px;
+    margin: 0 18px;
+    align-self: center;
+  }
+  .ima1{
+    display: flex;
+    justify-content: right;
+    
+  }
+  .ima1{
+      display: flex;
+      justify-content: center;
+  }
+
+  
+  
+  .mar1{
+    background-color: #ffffff;
+    border: 0;
+  }
+  
+  
+  .navbar{
+    background-color: rgba(16, 20, 238, 0.623);
+    position: sticky;
+    
+  }
+  .navbar a {
+      color: #000000;
+      display: inline-block;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      color: #000000;
+      transition: .3s ease-out all;
+  
+  }
+  .navar a:haver {
+  
+  }
+  .col1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:rgb(255, 255, 255);
+  }
+  .presentacion{
+      height: 360px;
+      width: 640px;
+      position: relative;
+     
+  }
+  .presentacion .front,
+  .presentacion .back{
+      height: 100%;
+      width: 100%;
+      backface-visibility: hidden;
+      border-radius: 24px;
+      overflow: hidden;
+  }
+  .presentacion .front{ 
+      background-color: rgba(26, 28, 133, 0.596);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+  }
+  .presentacion:hover .front{
+     transform: perspective(700px) rotateX(180deg);
+  
+  }
+  
+  .presentacion .front img{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+  
+  }
+  .empresa{
+      color: #000000;
+  }
+  .presentacion .front .empresa{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 19px;
+  }
+  
+  
+  .presentacion .front::before{
+      content: "";
+      border-radius: 50%;
+      border: 8px solid #1916547a;
+      position: absolute;
+      top: -25%;
+      height: 150%;
+      width: 320px;
+      transform: rotateZ(35deg);
+  
+  }
+  .presentacion .back{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #242424;
+      transform: perspective(700px) rotateX(-180deg);
+    }
+    .presentacion:hover .back{
+      transform: perspective(700px) rotateX(0deg);
+    }
+    .presentacion .back .imagen,
+    .presentacion .back .info{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+  
+    .presentacion .back .imagen{
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      background-color: #6f7ad891;
+      color: #ffffff;
+      align-items: center;
+    }
+    .presentacion .back .imagen img{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #0000003f;
+      border-radius: 50%;
+      padding: 4px;
+      margin-bottom: 16px;
+  
+    }
+    .presentacion .back .imagen h1{
+      font-size: 21px;
+      font-weight: 600;
+      margin-block: 8px;
+    }
+    .presentacion .back .imagen p{
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .presentacion .back .info{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      align-items: flex-start;
+      color: #ffffff;
+    }
+    .presentacion .back .info .contacto i{
+      line-height: 32px;
+      margin-block: 8px;
+    }
+    .presentacion .back .info .contacto i{
+      font-size: 18px;
+      margin-right: 16x;
+    }
+    .contenido1 {
+      max-width: 1000px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .contenido1-imagen {
+      height: 100vh;
+    }
+    .contenido1-imagen img {
+      width: 50%;
+      height: 50%;
+      vertical-align: top;
+      object-fit: cover;
+      object-position:  bottom;
+    }
+    .ima1{
+      display: flex;
+      justify-content: right;
+      
+    }
+    .ima1{
+        display: flex;
+        justify-content: center;
+    }
+    .ima1 img{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+      height: 400px; 
+     
+    }
+    .text{
+        text-align: center;
+    }
+  
+ 
+  
+  
+
+  nav{
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 60px;
+  }
+nav h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+#contenido{
+    width: 800px;
+    height: 0px;
+    float: left;
+    background-color: #0820f500;
+    margin-top: 10px;
+    float: right;
+}
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+.lado2{
+    float: right;
+    justify-self: right;
+}

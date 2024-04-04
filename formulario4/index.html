@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/ejercicio4.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+           
+            <h1 class="letra1">Ejercicio 4 </h1>
+            <div class="buttons">
+                <button><a href="../index.html">Portafolio de Evidencias</a></button>
+                    </div>
+          
+        </header>
+        <nav>
+            <div class="buttons">
+              <P>PROBLEMA 4: Un alumno desea saber, cuál será su calificación final en la materia de algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+                50% en el promedio de las 3 practicas,
+                
+                30% de la calificación del examen final y
+                
+                20% de la calificación de un trabajo final.</P>
+            </div>
+
+        </nav>
+   <aside>
+    <div class="content">
+        <br>
+        <h1>Calificación final en la materia de Algoritmos</h1>
+
+        <form name="formulario4">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="examenFinal">Ingresa la calificación del exámen final</label>
+                        </td>
+                        <td>
+                            <input name="examenFinal" required="required"
+                            step="0.000001"
+                            type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial1">Ingresa la calificación del primer parcial</label>
+                        </td>
+                        <td>
+                            <input name="parcial1" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial2">Ingresa la calificaión del segundo parcial</label>
+                        </td>
+                        <td>
+                            <input name="parcial2" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial3">Ingresa la calificación del tercer parcial</label>
+                        </td>
+                        <td>
+                            <input name="parcial3" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="trabajoFinal">Ingresa la calificación obtenida en tu trabajo final</label>
+                        </td>
+                        <td>
+                            <input name="trabajoFinal" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="calificaciones();"/>
+                            <input type="reset"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="promedioParciales">Calificación del promedio de los tres parciales</label>
+                        </td>
+                        <td>
+                            <input name="promedioParciales" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+</form>
+
+       
+    </div>
+</aside>
+      
+    </div>
+</body>
+</html>

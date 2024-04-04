@@ -1,0 +1,146 @@
+.anaheim-regular {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+header{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.ima2 {
+    margin-left: 500px;
+    align-self: left;
+    width: 500px;
+    border-color: #00000000;
+    align-self: right;
+   
+} 
+nav{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border-top: 50px;
+    background-color: #709396;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+
+}
+   
+
+
+body{
+    background-color: #18373A;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+
+.letra1{
+    font-size: 28px; 
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    align-self: center;
+   
+}
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-image: url(../img/amarillo.jpg);
+    width: 100%;
+    height: 100%;
+    
+
+
+}
+
+.buttons{
+    
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+.buttons button{
+    background-color: #63CEDD;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+.ima1 img{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .ima1 img{
+      display: flex;
+      justify-content: center;
+      width: 400px;
+    height: 200px; 
+   
+  }
+  .ima1{
+    align-items: center; 
+  }
+  .contacto2 i{
+    font-size: 28px;
+    margin: 0 18px;
+    align-self: center;
+  }
+  h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+ }
+.lib1{
+    width: 330px;
+    height: 660px;
+    background-color: #63e3f198;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+ }
+ .lib1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(219, 151, 151, 0.2);
+ }
+ .lib1 img{
+    width: 330px;
+    height: 300px;
+ }
+ 
+.lib1 h4{
+    font-weight: 600;
+ }
+
+.lib1 p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+ }
+ .lib1 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+ }
+ 
+ 

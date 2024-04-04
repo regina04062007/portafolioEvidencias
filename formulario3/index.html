@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/ejercicio3.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+           
+            <h1 class="letra1">Ejercicio 3 </h1>
+            <div class="buttons">
+                <button><a href="../index.html">Portafolio de Evidencias</a></button>
+                    </div>
+          
+        </header>
+        <nav>
+            <div class="buttons">
+              <P>PROBLEMA 3: Una tienda ofrece un descuento del 15 sobre el total de la compra y un cliente desea saber cuanto debera pagar finalmente por su compra</P>
+            </div>
+
+        </nav>
+   <aside>
+    <div class="content">
+        <br>
+        <h1>Descuento del 15% en una tienda</h1>
+        <form name="formulario3">
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="costoProducto1">Ingresa el valor de costo del producto 1</label>
+                        </td>
+
+                        <td>
+                            <input name="costoProducto1" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="costoProducto2">Ingresa el valor de costo del producto 2</label>
+                        </td>
+                        <td>
+                            <input name="costoProducto2" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="costoProducto3">Ingresa el valor de costo del producto 3</label>
+                        </td>
+                        <td>
+                            <input  name="costoProducto3" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+
+                    <tr class="tr1">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="costoTienda();"/>
+                            <input type="reset"/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="descuento">Valor del descuento: </label>
+                        </td>
+                        <td>
+                            <input name="descuento" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pagoFinal">Valor del pago final</label>
+                        </td>
+                        <td>
+                            <input name="pagoFinal" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="totalCompra">Valor total de la compra: </label>
+                        </td>
+                        <td>
+                            <input name="totalCompra" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+           
+           
+
+</form>
+
+       
+    </div>
+</aside>
+      
+    </div>
+</body>
+</html>

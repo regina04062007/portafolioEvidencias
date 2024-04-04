@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/validacion.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+           
+            <h1 class="letra1">Ejercicio de clase 03formulario </h1>
+            <div class="buttons">
+                <button><a href="../index.html">Portafolio de Evidencias</a></button>
+                    </div>
+          
+        </header>
+      
+   
+        <aside>
+        <div class="formulario">
+            <form method="post" name="formulario" action="" onsubmit="return validar(this)">
+                <p>
+                    Todos los formularios en web, manejan metodos para el envio de las diferentes peticiones que realiza el usuario. 
+                    Debemos recordar que la mayoria de las apliucaciones en web trabajan sobre una arquitectura cliente servidor. 
+                    Significa que el cliente realiza una peticion (request) y el servidor debe de atender ,ediente una respuesta (response).
+                    <br>
+                    <br>
+
+                    Los metodos mas comunes son:
+                    <br>
+                    <br>
+                    GET: <h2>Este metodo se encarga de enviar la informacion del formulario por medio de la salida o url estandar del navegador, 
+                        esto propicia que pueda existir inyecciones de codigfo realizando violaciones a la seguridad del sistema.</h2>
+                        <p>POST:</p> <h2>Este metodo ser encarga de enviar la infromacion ifgual por el metodo estandar; pero mediante un ocultamiento, esto significa que no es visible al usuario. 
+                            Lo que nos ofrece un mayor grado de seguridad en el manejo del sistema</h2>
+                            <ul>
+                                <br>
+                                <li>GET solo se usa para cambiat la informacion de lectura.</li>
+                                <br>
+                                <li>POST sirve para cambiar la inforaion de un recurso por parte del servidor. (insertar registro)</li>
+                                <br>
+                                <li>Delete sirve para eliminar un recurso en especifico.</li>
+                                <br>
+                                <li>Put almacena la informaion de un recurso particular, para sua actuyalizacion.</li>
+                                <br>
+                                <li>Head regresa el codigo respuesta y cualquiera cabecera HTTP asociada.</li>
+                               
+                                             </ul>
+                </p>
+                <div class="content">
+                    <br>
+                    <h1>Formulario 03</h1>
+                <label>Nombre:</label>
+                <br>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label>Edad:</label>
+                <br>
+                <input type="number" name="edad" id="edad">
+                <br>
+                <label>Correo:</label>
+                <br>
+                <input type="email" name="correo" id="correo">
+                <br>
+                <br>
+                <input type="submit" name="enviar" value="Enviar Registro">
+                <br>
+                <br>
+                <input type="reset" name="borrar" value="Borrar Datos">
+                </div>
+            </form>
+
+        </div>
+        </aside>
+
+    </div>
+</body>
+</html>

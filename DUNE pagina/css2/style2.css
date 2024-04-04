@@ -1,0 +1,179 @@
+.anaheim-regular {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+header{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.ima2 {
+    margin-left: 500px;
+    align-self: left;
+    width: 500px;
+    height: 200px;
+    border-color: #00000000;
+    align-self: right;
+   
+} 
+nav{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border-top: 50px;
+    background-color: #709396;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+
+}
+body{
+    background-color: #18373A;
+}
+
+
+.letra1{
+    font-size: 28px; 
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    align-self: center;
+   
+}
+
+aside{
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(240, 193, 135);
+    width: 100%;
+    height: 2000px;
+    margin-top: 10px;
+
+}
+.buttons{
+    display: felx;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+.buttons button{
+    background-color: #63CEDD;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+
+  .contacto2 i{
+    font-size: 28px;
+    margin: 0 18px;
+    align-self: center;
+  }
+  .parra1{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-size: 20px;
+    
+  }
+h1{
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+}
+div.galeria{
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 black;
+  float: left;
+  width: 290px;
+  height: 460px;
+  background-color: #63CEDD;
+}
+div.galeria img{
+  width: 100%;
+  height: 360px;
+}
+div.galeria:hover{
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+div.pie{
+  background-color: #63CEDD;
+  text-align: center;
+  text-shadow: 2px 2px 5px purple;
+  padding: 10px;
+}
+.ima1{
+    margin: 50px;
+    width: 90%;
+  }
+   img{
+      width: 100%;
+    height: 300px; 
+    float: left;
+    border: 3px solid #ffffff;
+    margin-right: 30px;
+   
+  }
+  .text-box{
+    color: #000000;
+  }
+  
+  .text-box h2{
+    font-size: 42px;
+  }
+  .text-box .parra1{
+
+    text-align: justify;
+   
+    font-size: 20px;
+    
+  }
+.text-box2{
+  color: #000000;
+}
+.text-box h2{
+  font-size: 42px;
+}
+
+.imag1{
+  width: 250px;
+height: 300px; 
+float: right;
+border: 3px solid #ffffff;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 0%;
+
+}
+.text-box2 .parra2{
+  text-align: justify;
+
+  font-size: 20px;
+  
+}
+.imag1{
+    width: 250px;
+  height: 300px; 
+  float: right;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 0%;
+  
+  }
+  .text-box3 .parra3{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+  }
+  
