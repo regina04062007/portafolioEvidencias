@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/ejercicio2.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="formulario2"></div>
+        <header>
+            
+            <h1 class="letra1">Ejercicio 2 </h1>
+            <div class="buttons">
+                <button><a href="../index.html">Portafolio de Evidencias</a></button>
+                    </div>
+          
+        </header>
+        <nav>
+            <div class="buttons">
+              <P>PROBLEMA 2: Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas, el vendedor desea saber cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.</P>
+            </div>
+
+        </nav>
+   <aside>
+    <div class="content">
+        <br>
+        <h1>Ventas del mes</h1>
+        
+            <form method="post" name="formulario2" action="" >
+               
+            <table>
+                <tbody>
+                    
+                    <tr>
+                        <td>
+                            <label for="venta1">Ingresa el valor de la primer venta</label>
+                        </td>
+                        <td>
+                            <input name="venta1" step="0.000001" type="number" onkeypress="return soloNumeros(Event);" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="venta2">Ingresa el valor de la segunda venta</label>
+                        </td>
+                        <td>
+                            <input name="venta2" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="venta3">Ingresa el valor de la tercera venta</label>
+                        </td>
+                        <td>
+                            <input name="venta3" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sueldoBase">Ingresa el valor de tu sueldo base</label>
+                        </td>
+                        <td>
+                            <input name="sueldoBase" required="required" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="ventas();"/>
+                            <input type="reset"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comision">Comisión</label>
+                        </td>
+                        <td>
+                            <input name="comision" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sueldoTotal">Sueldo total </label>
+                        </td>
+                        <td>
+                            <input name="sueldoTotal" step="0.000001" type="number"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+</form>
+</div>
+    </div>
+</aside>
+      
+    </div>
+    
+</body>
+</html>

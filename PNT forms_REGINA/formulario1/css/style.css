@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(24, 169, 236);
+    background-color: rgba(7, 24, 122, 0.747);
     display: flex;
     width: 100%;
     height: 70px;
@@ -12,7 +12,7 @@ nav{
     align-items: center;
     border-radius: 15px;
     border-top: 50px;
-    background-color: #eca437;
+    background-color: #daec37;
     display: flex;
     width: 100%;
     height: 60px;
@@ -26,41 +26,45 @@ nav{
     font-size: 21px;
     color: black;
 }
+
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: gray;
+}
+.letra1{
+    margin-right: 350px;
+    margin-left: 15px;
 }
 aside{
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-top: 10px;
-    background-image: url(../store.jpg);
+    background-image: url(../banco.jpg);
+    background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
     height: 550px;
     margin-top: 10px;
     border-radius: 10px;
 
 }
-.letra1{
-    margin-right: 350px;
-    margin-left: 15px;
-}
 .content{
     position: absolute;
-    margin-top: 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    height: 330px;
-    background-color: rgb(225, 109, 236);
+    height: 260px;
+    background-color: rgb(40, 189, 235);
     border-radius: 10px;
-   
+   margin-top: 100px;
 
 }
 .content h1{
    text-align: center;
    padding: 0 0 20px 0;
-   border-bottom: 1px solid rgb(48, 47, 47);
+   border-bottom: 1px solid rgb(44, 43, 43);
 }
 .content form{
     padding: 0 40px;
@@ -78,8 +82,7 @@ aside{
 }
 .buttons button{
     
-    background-color: rgb(114, 81, 37);
-    border-color: rgb(82, 54, 11);
+    background-color: blueviolet;
     border-radius: 15px;
     width: 250px;
     height: 40px;
@@ -95,11 +98,6 @@ label{
 h1{
     font-size: 28px;
 }
-a{
-    color: rgb(255, 0, 170);
-}
-
-
 
 
 
