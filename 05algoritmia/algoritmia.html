@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de uso de algoritmia</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="problema-container">
+            <h2 class="problema-title">Problema1</h2>
+            <h3>Dada una lista de palabras separadas por un espacio, invierte el orden la dichas palabras. Las palabras pueden estar separadas unicamente por espacios.</h3>
+            <div class="problema-content">
+                <input type="text" class="problema-input" placeholder="ingresa las palabras separadas por un espacio: " id="p1-input">
+                <button type="button" class="problema-button" style="margin-top: 01rem;" onclick="">Invertir palabras</button>
+                <pre class="problema-output" id="p1-output">Esperando datos...</pre>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="problema-container">
+            <h2 class="problema-title">Problema2</h2>
+            <h3>Dados dos vectores <em>v1=(x1, x2, x3, x4, xN), v2=(y1, y2, y3, y4, yN)</em> y teninedo permitido permutar el orden de los elemneto de dicho vector, encontrar el minimo producto escalar entre ambos vectores.
+            <br>
+           (El producto escalar se forma de la siguiente manera: <em>x1*y1 + x2*y2 + x3*y3 + x4*y4 + xN*yN</em>)...
+        </h3>
+            <div class="problema-content">
+                <div class="tablas" style="width:100%; display: flex; justify-content: center;">
+                    <table class="problema-table" style="width: 45%;">
+                       
+                        <thead>
+                            <tbody>
+                            <tr>
+                                <th><em>X</em></th>
+                                <th>#</th>
+                            </tr>
+                            <td>x1</td>
+                            <td><input type="number" class="problema-input" id="p2-x1"></td>
+                        </thead>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <button type="button" class="problema-button" style="margin-top: 01rem;" onclick="problema2()">Invertir palabras</button>
+                <pre class="problema-output" id="p2-output">Esperando datos...</pre>
+            </div>
+        </div>
+    </div>
+     
+    <div class="container">
+        <div class="problema-container">
+            <h2 class="problema-title">Problema3</h2>
+            <h3>Dada una lista de palabras separadas por un espacio, invierte el orden la dichas palabras. Las palabras pueden estar separadas unicamente por espacios.</h3>
+            <br>
+            ejemplo: CASA=3 (c, a, s) PERRO=4 (p, e, r, o)
+            <br>
+            considera solamente el alfabeto A-Z, en mayusculas. las palabras ingresadas deberan estar separadas por una coma, no se acepta espacios.
+            <div class="problema-content">
+                <input type="text" class="problema-input" placeholder="ingresa las palabras separadas por una coma: " id="p3-input">
+                <button type="button" class="problema-button" style="margin-top: 01rem;" onclick="">Clacular palabras</button>
+                <pre class="problema-output" id="p3-output">Esperando datos...</pre>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/funcionesalgorimia.js"></script>
+</body>
+</html>
