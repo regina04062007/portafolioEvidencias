@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(190, 194, 193);
+}
+header{
+    background-color: rgba(7, 24, 122, 0.747);
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    height: 50px;
+    
+}
+.buttons{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+  
+}
+.buttons button{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: rgb(192, 95, 221);
+    color: white;
+    border: none;
+}
+a{
+    color: white;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10px;
+    background-color: rgb(190, 194, 193);
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.problema-tittle {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.problema-container {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: rgb(183, 131, 231);
+}
+
+.problema-content {
+    margin-top: 1rem;
+}
+
+.problema-input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.problema-button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.problema-output {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #f0f0f0;
+}
